@@ -1,0 +1,33 @@
+server:
+  port: 8080
+  servlet:
+    context-path: "/"
+
+spring:
+
+  wls:
+
+    jms:
+      url: "t3://localhost:7001"
+      username: "test"
+      password: "test1234"
+      connectionFactory: "myConnectionFactory"
+      queue:   "myQueue"
+
+  stage: "local"
+  max: 3
+
+management:
+  endpoints:
+    web:
+      base-path: /mgmt
+      exposure:
+        include: ["health", "info"]
+  endpoint:
+    health:
+      show-details: always
+      show-components: always
+  health:
+    # consul is not implemented
+    consul:
+      enabled: false
