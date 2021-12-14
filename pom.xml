@@ -167,8 +167,8 @@
     <dependency>
       <groupId>com.oracle.weblogic</groupId>
       <artifactId>wlthint3client</artifactId>
+      <!-- XXX seems not be public available! -->
       <version>12.2.1.4</version>
-      <!--      XXX die folgenden Versionen, funktionieren nicht richtig, warum ???-->
       <!--      <version>12.2.1.4.0-2021-04</version>-->
       <!--      <version>12.2.1.4.0-2021-07</version>-->
       <!--      <version>14.1.1.0.0</version>-->
