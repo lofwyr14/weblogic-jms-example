@@ -37,6 +37,8 @@
         <configuration>
           <failBuildOnCVSS>0</failBuildOnCVSS>
         </configuration>
+        <!--  may take a while and need internet connection-->
+<!--
         <executions>
           <execution>
             <goals>
@@ -44,6 +46,7 @@
             </goals>
           </execution>
         </executions>
+-->
       </plugin>
 
       <plugin>
